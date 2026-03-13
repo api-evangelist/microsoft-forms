@@ -1,0 +1,36 @@
+aid: microsoft-forms
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-forms/refs/heads/main/apis.yml
+apis:
+  - aid: microsoft-forms:graph-forms-api
+    name: Microsoft Graph Forms API
+    tags:
+      - Forms
+      - Surveys
+      - Quizzes
+      - Microsoft Graph
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://graph.microsoft.com/v1.0/
+    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/forms-overview
+    properties:
+      - url: https://learn.microsoft.com/en-us/graph/api/resources/forms-overview
+        type: Documentation
+    description: >-
+      The Microsoft Graph Forms API provides programmatic access to
+      Microsoft Forms for creating and managing forms, surveys, and quizzes.
+      Developers can retrieve form definitions, access response data,
+      and integrate form functionality into custom applications through
+      the Microsoft Graph endpoint.
+common:
+  - type: Portal
+    url: https://forms.office.com/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/graph/auth/
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://support.microsoft.com/
+maintainers:
+  - name: Kin Lane
+    email: kin@apievangelist.com
