@@ -9,10 +9,10 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Forms
-  - Surveys
-  - Quizzes
-  - Microsoft 365
   - Microsoft
+  - Microsoft 365
+  - Quizzes
+  - Surveys
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-forms/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -30,9 +30,9 @@ apis:
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
       - Forms
-      - Surveys
-      - Quizzes
       - Microsoft Graph
+      - Quizzes
+      - Surveys
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/graph/api/resources/forms-overview
