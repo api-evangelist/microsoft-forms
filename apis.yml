@@ -39,6 +39,8 @@ apis:
       - type: GettingStarted
         url: https://learn.microsoft.com/en-us/graph/use-the-api
 common:
+  - type: DomainSecurity
+    url: security/microsoft-forms-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/MicrosoftDocs
   - type: Portal
