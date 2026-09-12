@@ -42,7 +42,7 @@ tags_raw:
   - Microsoft 365
   - Quizzes
   - Surveys
-url: https://raw.githubusercontent.com/api-evangelist/microsoft-forms/refs/heads/main/apis.yml
+url: https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes
 created: '2024-01-01'
 modified: '2026-04-28'
 specificationVersion: '0.23'
@@ -101,5 +101,5 @@ integrations:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
-x-parent: microsoft
+x-parent: microsoft-365
 x-relationship: product
